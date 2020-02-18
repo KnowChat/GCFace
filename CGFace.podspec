@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CGFace" # 项目名称
-  s.version      = "1.0.0"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "1.1.0"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "表情解析工具" # 项目简介
 
