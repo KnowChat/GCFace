@@ -17,5 +17,7 @@
 @end
 @interface GCFaceData : NSObject
 +(NSArray<GCFaceDataItem*>*_Nonnull)read;
-+(NSDictionary*)AllForParse;
++(NSDictionary*_Nonnull)AllForParse;
++(NSArray<GCFaceDataItem*>*_Nonnull)otherFaceReadWithMapName:(NSString *_Nonnull)mapName;
++(NSDictionary*_Nonnull)otherForParseWithMapName:(NSString *_Nonnull)mapName;
 @end
